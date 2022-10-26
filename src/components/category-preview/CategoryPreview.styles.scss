@@ -1,0 +1,18 @@
+.category-preview {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+  &__title {
+    font-size: 28px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  &__preview {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+  }
+}
